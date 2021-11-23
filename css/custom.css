@@ -1,0 +1,129 @@
+/* "bs" - bootstrap - for use in comments   */
+/* ".c-" prefix for custom styles classes  */
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.btn {
+  border-radius: 3rem;
+}
+
+/* youtube window */
+iframe {
+  margin-bottom: 2rem;
+}
+
+/* bs button style override */
+
+.btn-primary {
+  color: #fff;
+  background-color: #4e1e45;
+  border-color: #4e1e45;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #922891;
+  border-color: #922891;
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #922891;
+  border-color: #922891;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(146, 40, 145, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(146, 40, 145, 0.5);
+}
+
+.btn-check:checked+.btn-primary,
+.btn-check:active+.btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #922891;
+  border-color: #922891;
+}
+
+.btn-check:checked+.btn-primary:focus,
+.btn-check:active+.btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(146, 40, 145, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(146, 40, 145, 0.5);
+}
+
+.btn-primary:disabled,
+.btn-primary.disabled {
+  color: #fff;
+  background-color: #4e1e45;
+  border-color: #4e1e45;
+}
+
+/* custom styles with ".c-" prefix */
+
+.c-discord-link {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 41px;
+}
+
+.c-discord-link img,
+.c-twitter-link img {
+  display: inline-block;
+}
+
+.c-twitter-link {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 41px;
+}
+
+.c-welcome-background {
+  background: url(../images/Layer.png) no-repeat center top fixed;
+}
+
+/* custom bg color  */
+.c-bg-secondary {
+  background-color: #323e72;
+}
+
+/* custom bg color  */
+.c-bg-primary {
+  background-color: #6a2861;
+}
+
+/* custom color */
+.c-primary {
+  color: #6a2861;
+}
+
+.c-bg-pink {
+  background-color: #e8a0fb;
+}
+
+.c-bg-pink-2 {
+  background-color: #d88beb;
+
+}
+
+/* custom blue color for highlighted text */
+.c-color-blue {
+  color: #95d0f7;
+}
+
+.c-border-color {
+  border-color: #ad429e !important;
+}
+
+/* two color background for "the future block" */
+.c-two-color-bg {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #d88beb), color-stop(30%, #ffffff));
+  background: -o-linear-gradient(top, #d88beb 30%, #ffffff 30%);
+  background: linear-gradient(180deg, #d88beb 30%, #ffffff 30%);
+}
